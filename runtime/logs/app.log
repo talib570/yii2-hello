@@ -1,0 +1,396 @@
+2015-11-15 08:51:34 [::1][-][-][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: pcntl: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 08:51:34 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1881801649.1443644949'
+    '_csrf' => '42b811f537f1c62108062fafb28fe62f8ac6b0fcb94d2554241a5413ea3e4658a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"31Bp957X-MT_L6BiqNRmGmwwEtLC0Lk-\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/hello/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1881801649.1443644949; _csrf=42b811f537f1c62108062fafb28fe62f8ac6b0fcb94d2554241a5413ea3e4658a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2231Bp957X-MT_L6BiqNRmGmwwEtLC0Lk-%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/hello/web/index.php'
+    'REMOTE_PORT' => '49513'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/hello/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/hello/web/index.php'
+    'PHP_SELF' => '/hello/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447573894.51
+    'REQUEST_TIME' => 1447573894
+    'argv' => [
+        0 => 'r=site%2Fabout'
+    ]
+    'argc' => 1
+]
+2015-11-15 08:57:32 [::1][-][0f38d3997b54c1e1abfb402857545543][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: pcntl: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 08:57:31 [::1][-][0f38d3997b54c1e1abfb402857545543][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1881801649.1443644949'
+    '_csrf' => '42b811f537f1c62108062fafb28fe62f8ac6b0fcb94d2554241a5413ea3e4658a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"31Bp957X-MT_L6BiqNRmGmwwEtLC0Lk-\";}'
+    'PHPSESSID' => '0f38d3997b54c1e1abfb402857545543'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'tyqege'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8888/hello/web/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1881801649.1443644949; _csrf=42b811f537f1c62108062fafb28fe62f8ac6b0fcb94d2554241a5413ea3e4658a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2231Bp957X-MT_L6BiqNRmGmwwEtLC0Lk-%22%3B%7D; PHPSESSID=0f38d3997b54c1e1abfb402857545543'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/hello/web/index.php'
+    'REMOTE_PORT' => '50000'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hello/web/index.php'
+    'SCRIPT_NAME' => '/hello/web/index.php'
+    'PHP_SELF' => '/hello/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447574251.45
+    'REQUEST_TIME' => 1447574251
+    'argv' => []
+    'argc' => 0
+]
+2015-11-15 09:03:41 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /Applications/MAMP/htdocs/hello/views/site/say.php' in /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Applications/M...', Array, Object(app\controllers\SiteController))
+#1 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('say', Array, Object(app\controllers\SiteController))
+#2 /Applications/MAMP/htdocs/hello/controllers/SiteController.php(97): yii\base\Controller->render('say', Array)
+#3 [internal function]: app\controllers\SiteController->actionSay('World')
+#4 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('say', Array)
+#7 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/say', Array)
+#8 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Applications/MAMP/htdocs/hello/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2015-11-15 09:03:41 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/say'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1881801649.1443644949'
+    '_csrf' => '42b811f537f1c62108062fafb28fe62f8ac6b0fcb94d2554241a5413ea3e4658a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"31Bp957X-MT_L6BiqNRmGmwwEtLC0Lk-\";}'
+    'PHPSESSID' => '0f38d3997b54c1e1abfb402857545543'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1881801649.1443644949; _csrf=42b811f537f1c62108062fafb28fe62f8ac6b0fcb94d2554241a5413ea3e4658a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2231Bp957X-MT_L6BiqNRmGmwwEtLC0Lk-%22%3B%7D; PHPSESSID=0f38d3997b54c1e1abfb402857545543'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/hello/web/index.php'
+    'REMOTE_PORT' => '50422'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsay'
+    'REQUEST_URI' => '/hello/web/index.php?r=site%2Fsay'
+    'SCRIPT_NAME' => '/hello/web/index.php'
+    'PHP_SELF' => '/hello/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447574621.24
+    'REQUEST_TIME' => 1447574621
+    'argv' => [
+        0 => 'r=site%2Fsay'
+    ]
+    'argc' => 1
+]
+2015-11-15 09:03:48 [::1][-][0f38d3997b54c1e1abfb402857545543][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "say".' in /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('say', Array)
+#1 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/MAMP/htdocs/hello/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/MAMP/htdocs/hello/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-11-15 09:03:48 [::1][-][0f38d3997b54c1e1abfb402857545543][info][application] $_GET = [
+    'r' => 'say'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1881801649.1443644949'
+    '_csrf' => '42b811f537f1c62108062fafb28fe62f8ac6b0fcb94d2554241a5413ea3e4658a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"31Bp957X-MT_L6BiqNRmGmwwEtLC0Lk-\";}'
+    'PHPSESSID' => '0f38d3997b54c1e1abfb402857545543'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'tyqege'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1881801649.1443644949; _csrf=42b811f537f1c62108062fafb28fe62f8ac6b0fcb94d2554241a5413ea3e4658a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2231Bp957X-MT_L6BiqNRmGmwwEtLC0Lk-%22%3B%7D; PHPSESSID=0f38d3997b54c1e1abfb402857545543'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/hello/web/index.php'
+    'REMOTE_PORT' => '50424'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=say'
+    'REQUEST_URI' => '/hello/web/index.php?r=say'
+    'SCRIPT_NAME' => '/hello/web/index.php'
+    'PHP_SELF' => '/hello/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447574628.19
+    'REQUEST_TIME' => 1447574628
+    'argv' => [
+        0 => 'r=say'
+    ]
+    'argc' => 1
+]
+2015-11-15 09:03:48 [::1][-][0f38d3997b54c1e1abfb402857545543][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: pcntl: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 09:03:48 [::1][-][0f38d3997b54c1e1abfb402857545543][info][application] $_GET = [
+    'r' => 'say'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1881801649.1443644949'
+    '_csrf' => '42b811f537f1c62108062fafb28fe62f8ac6b0fcb94d2554241a5413ea3e4658a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"31Bp957X-MT_L6BiqNRmGmwwEtLC0Lk-\";}'
+    'PHPSESSID' => '0f38d3997b54c1e1abfb402857545543'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'tyqege'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1881801649.1443644949; _csrf=42b811f537f1c62108062fafb28fe62f8ac6b0fcb94d2554241a5413ea3e4658a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2231Bp957X-MT_L6BiqNRmGmwwEtLC0Lk-%22%3B%7D; PHPSESSID=0f38d3997b54c1e1abfb402857545543'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/hello/web/index.php'
+    'REMOTE_PORT' => '50424'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=say'
+    'REQUEST_URI' => '/hello/web/index.php?r=say'
+    'SCRIPT_NAME' => '/hello/web/index.php'
+    'PHP_SELF' => '/hello/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447574628.19
+    'REQUEST_TIME' => 1447574628
+    'argv' => [
+        0 => 'r=say'
+    ]
+    'argc' => 1
+]
+2015-11-15 11:17:42 [::1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /Applications/MAMP/htdocs/hello/views/site/say.php' in /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Applications/M...', Array, Object(app\controllers\SiteController))
+#1 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('say', Array, Object(app\controllers\SiteController))
+#2 /Applications/MAMP/htdocs/hello/controllers/SiteController.php(97): yii\base\Controller->render('say', Array)
+#3 [internal function]: app\controllers\SiteController->actionSay('World')
+#4 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('say', Array)
+#7 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/say', Array)
+#8 /Applications/MAMP/htdocs/hello/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /Applications/MAMP/htdocs/hello/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2015-11-15 11:17:42 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1881801649.1443644949'
+    '_csrf' => '42b811f537f1c62108062fafb28fe62f8ac6b0fcb94d2554241a5413ea3e4658a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"31Bp957X-MT_L6BiqNRmGmwwEtLC0Lk-\";}'
+    'PHPSESSID' => '0f38d3997b54c1e1abfb402857545543'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1881801649.1443644949; _csrf=42b811f537f1c62108062fafb28fe62f8ac6b0fcb94d2554241a5413ea3e4658a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2231Bp957X-MT_L6BiqNRmGmwwEtLC0Lk-%22%3B%7D; PHPSESSID=0f38d3997b54c1e1abfb402857545543'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/hello/web/index.php'
+    'REMOTE_PORT' => '54233'
+    'REDIRECT_URL' => '/hello/web/site/say'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/hello/web/site/say'
+    'SCRIPT_NAME' => '/hello/web/index.php'
+    'PHP_SELF' => '/hello/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447582662.31
+    'REQUEST_TIME' => 1447582662
+    'argv' => []
+    'argc' => 0
+]
+2015-11-15 11:21:00 [::1][-][0f38d3997b54c1e1abfb402857545543][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: pcntl: Unable to initialize module
+Module compiled with module API=20121212
+PHP    compiled with module API=20131226
+These options need to match
+' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-11-15 11:21:00 [::1][-][0f38d3997b54c1e1abfb402857545543][info][application] $_GET = [
+    'target' => 'Talib Allauddin'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1881801649.1443644949'
+    '_csrf' => '42b811f537f1c62108062fafb28fe62f8ac6b0fcb94d2554241a5413ea3e4658a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"31Bp957X-MT_L6BiqNRmGmwwEtLC0Lk-\";}'
+    'PHPSESSID' => '0f38d3997b54c1e1abfb402857545543'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'tyqege'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.125 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1881801649.1443644949; _csrf=42b811f537f1c62108062fafb28fe62f8ac6b0fcb94d2554241a5413ea3e4658a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2231Bp957X-MT_L6BiqNRmGmwwEtLC0Lk-%22%3B%7D; PHPSESSID=0f38d3997b54c1e1abfb402857545543'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8888'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Applications/MAMP/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/MAMP/htdocs/hello/web/index.php'
+    'REMOTE_PORT' => '54466'
+    'REDIRECT_QUERY_STRING' => 'target=Talib%20Allauddin'
+    'REDIRECT_URL' => '/hello/web/site/say'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'target=Talib%20Allauddin'
+    'REQUEST_URI' => '/hello/web/site/say?target=Talib%20Allauddin'
+    'SCRIPT_NAME' => '/hello/web/index.php'
+    'PHP_SELF' => '/hello/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1447582860.08
+    'REQUEST_TIME' => 1447582860
+    'argv' => [
+        0 => 'target=Talib%20Allauddin'
+    ]
+    'argc' => 1
+]
